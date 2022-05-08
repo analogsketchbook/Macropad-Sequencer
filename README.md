@@ -3,15 +3,19 @@
 
 # Setup
 Follow the instructions for assembling your Adafruit Macropad, setting up the bootloader and Circuit Python here: https://learn.adafruit.com/adafruit-macropad-rp2040
+
 Once you have the Macropad booted, drag the following libraries from the Python bundle you downloaded to the Macropad’s lib folder:
-adafruit_display_text
-adafruit_hid
-adafruit_led_animation
-adafruit_midi
-adafruit_debouncer.mpy
-adafruit_macropad.mpy
-adafruit_simple_text_display.mpy
-neopixel.mpy
+
+* adafruit_display_text
+* adafruit_hid
+* adafruit_led_animation
+* adafruit_midi
+* adafruit_debouncer.mpy
+* adafruit_macropad.mpy
+* adafruit_simple_text_display.mpy
+* adafruit_ticks.mpy
+* neopixel.mpy
+
 Open up the code.py file on the Macropad in your favorite editor and replace the code with the code in this repository. When you save it, the Macropad should reboot and run the program.
 
 # Usage
